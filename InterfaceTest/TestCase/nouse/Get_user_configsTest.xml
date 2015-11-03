@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Get_user_configsTest" parallel="false">
+    <parameter name="url1" value="http://192.168.181.5:805/Auth/Login" />
+    <parameter name="url2" value="http://192.168.181.5:805/Config/GetUserConfigs?groupGuid=" />
+    <parameter name="excelPath" value="D:\InterfaceTestCase\Get_user_configs.xlsx" />
+    <parameter name="sheetName" value="Sheet1" />
+
+    <test name="groupGuid=6d3a10f8-f834-e511-8d70-d4ae526f9ae6">
+        <parameter name="dataIndex" value="1" />
+        <classes>
+            <class name="com.CCJoy.InterfaceTest.Test.nouse.Get_user_configsTest" />
+        </classes>
+    </test>
+
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+    </listeners>
+</suite>
+

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LoginInterfaceTest--fail"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="2.215">
+  <properties />
+            <testcase name="Login_oneTest" time="2.215" classname="com.CCJoy.InterfaceTest.Test.oneTime.Login_oneTest">
+                <failure type="net.sf.json.JSONException"
+                  message="A JSONObject text must begin with &apos;{&apos; at character 1 of &lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;无法找到资源。&lt;/title&gt;
+        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; /&gt;
+        &lt;style&gt;
+         body {font-family:&quot;Verdana&quot;;font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:&quot;Verdana&quot;;font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:&quot;Verdana&quot;;font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:&quot;Verdana&quot;;font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:&quot;Verdana&quot;;font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:&quot;Consolas&quot;,&quot;Lucida Console&quot;,Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:hand; }
+         @media screen and (max-width: 639px) {
+          pre { width: 440px; overflow: auto; white-space: pre-wrap; word-wrap: break-word; }
+         }
+         @media screen and (max-width: 479px) {
+          pre { width: 280px; }
+         }
+        &lt;/style&gt;
+    &lt;/head&gt;
+
+    &lt;body bgcolor=&quot;white&quot;&gt;
+
+            &lt;span&gt;&lt;H1&gt;“/”应用程序中的服务器错误。&lt;hr width=100% size=1 color=silver&gt;&lt;/H1&gt;
+
+            &lt;h2&gt; &lt;i&gt;无法找到资源。&lt;/i&gt; &lt;/h2&gt;&lt;/span&gt;
+
+            &lt;font face=&quot;Arial, Helvetica, Geneva, SunSans-Regular, sans-serif &quot;&gt;
+
+            &lt;b&gt; 说明: &lt;/b&gt;HTTP 404。您正在查找的资源(或者它的一个依赖项)可能已被移除，或其名称已更改，或暂时不可用。请检查以下 URL 并确保其拼写正确。
+            &lt;br&gt;&lt;br&gt;
+
+            &lt;b&gt; 请求的 URL: &lt;/b&gt;/Auth/Login&lt;br&gt;&lt;br&gt;
+
+            &lt;hr width=100% size=1 color=silver&gt;
+
+            &lt;b&gt;版本信息:&lt;/b&gt;&amp;nbsp;Microsoft .NET Framework 版本:4.0.30319; ASP.NET 版本:4.0.30319.34249
+
+            &lt;/font&gt;
+
+    &lt;/body&gt;
+&lt;/html&gt;
+&lt;!-- 
+[HttpException]: 未找到路径“/Auth/Login”的控制器或该控制器未实现 IController。
+   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController&amp; controller, IControllerFactory&amp; factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously)
+--&gt;&lt;!-- 
+此错误页可能包含敏感信息，因为 ASP.NET 通过 &amp;lt;customErrors mode=&quot;Off&quot;/&amp;gt; 被配置为显示详细错误消息。请考虑在生产环境中使用 &amp;lt;customErrors mode=&quot;On&quot;/&amp;gt; 或 &amp;lt;customErrors mode=&quot;RemoteOnly&quot;/&amp;gt;。--&gt;"
+              >
+<![CDATA[net.sf.json.JSONException: A JSONObject text must begin with '{' at character 1 of <!DOCTYPE html>
+<html>
+    <head>
+        <title>无法找到资源。</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:hand; }
+         @media screen and (max-width: 639px) {
+          pre { width: 440px; overflow: auto; white-space: pre-wrap; word-wrap: break-word; }
+         }
+         @media screen and (max-width: 479px) {
+          pre { width: 280px; }
+         }
+        </style>
+    </head>
+
+    <body bgcolor="white">
+
+            <span><H1>“/”应用程序中的服务器错误。<hr width=100% size=1 color=silver></H1>
+
+            <h2> <i>无法找到资源。</i> </h2></span>
+
+            <font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ">
+
+            <b> 说明: </b>HTTP 404。您正在查找的资源(或者它的一个依赖项)可能已被移除，或其名称已更改，或暂时不可用。请检查以下 URL 并确保其拼写正确。
+            <br><br>
+
+            <b> 请求的 URL: </b>/Auth/Login<br><br>
+
+            <hr width=100% size=1 color=silver>
+
+            <b>版本信息:</b>&nbsp;Microsoft .NET Framework 版本:4.0.30319; ASP.NET 版本:4.0.30319.34249
+
+            </font>
+
+    </body>
+</html>
+<!-- 
+[HttpException]: 未找到路径“/Auth/Login”的控制器或该控制器未实现 IController。
+   在 System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   在 System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   在 System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   在 System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+--><!-- 
+此错误页可能包含敏感信息，因为 ASP.NET 通过 &lt;customErrors mode="Off"/&gt; 被配置为显示详细错误消息。请考虑在生产环境中使用 &lt;customErrors mode="On"/&gt; 或 &lt;customErrors mode="RemoteOnly"/&gt;。-->
+  net.sf.json.util.JSONTokener.syntaxError(JSONTokener.java:544)
+  net.sf.json.JSONObject.<init>(JSONObject.java:1002)
+  net.sf.json.JSONObject.fromJSONTokener(JSONObject.java:714)
+  net.sf.json.JSONObject.fromString(JSONObject.java:481)
+  net.sf.json.JSONObject.fromString(JSONObject.java:450)
+  com.CCJoy.InterfaceTest.Interface_Design.Login_one.login(Login_one.java:23)
+  com.CCJoy.InterfaceTest.Test.oneTime.Login_oneTest.Login_oneTest(Login_oneTest.java:16)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:497)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:771)
+  org.testng.TestRunner.run(TestRunner.java:621)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+  org.testng.SuiteRunner.run(SuiteRunner.java:259)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+  org.testng.TestNG.run(TestNG.java:1032)
+  org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+  org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:125)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:497)
+  com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>

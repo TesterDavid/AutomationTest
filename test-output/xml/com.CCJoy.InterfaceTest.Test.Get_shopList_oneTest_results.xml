@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Get_shopList_more"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="0.000">
+  <properties />
+  
+            <testcase name="Get_shopList_test" time="0.0" classname="com.CCJoy.InterfaceTest.Test.oneTime.Get_shopList_oneTest">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

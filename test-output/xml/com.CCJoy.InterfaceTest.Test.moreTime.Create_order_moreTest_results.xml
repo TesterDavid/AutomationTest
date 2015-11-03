@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Create_order_moreTest"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.417">
+  <properties />
+  
+  
+            <testcase name="create_order_moreTest" time="2.417" classname="com.CCJoy.InterfaceTest.Test.moreTime.Create_order_moreTest" />
+      
+</testsuite>

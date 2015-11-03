@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Save_user_configTest" parallel="false">
+    <parameter name="url1" value="http://192.168.181.5:805/Auth/Login" />
+    <parameter name="url2" value="http://192.168.181.5:805/Config/SaveUserConfig" />
+    <parameter name="url3" value="http://192.168.181.5:805/Config/GetUserConfig?config_code=" />
+    <parameter name="excelPath" value="D:\InterfaceTestCase\Save_user_config.xlsx" />
+    <parameter name="sheetName" value="Sheet1" />
+
+    <test name="Save_user_config">
+        <parameter name="dataIndex" value="1" />
+        <classes>
+            <class name="com.CCJoy.InterfaceTest.Test.nouse.Save_user_configTest" />
+        </classes>
+    </test>
+
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+    </listeners>
+</suite>
+

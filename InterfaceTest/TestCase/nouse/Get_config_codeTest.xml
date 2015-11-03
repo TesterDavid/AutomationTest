@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Get_config_codeTest" parallel="false">
+    <parameter name="url1" value="http://192.168.181.5:805/Auth/Login" />
+    <parameter name="url2" value="http://192.168.181.5:805/Config/GetUserConfig?config_code=" />
+    <parameter name="excelPath" value="D:\InterfaceTestCase\Get_config_code.xlsx" />
+    <parameter name="sheetName" value="Sheet1" />
+
+    <test name="config_code=1001">
+        <parameter name="dataIndex" value="1" />
+        <classes>
+            <class name="com.CCJoy.InterfaceTest.Test.nouse.Get_config_codeTest" />
+        </classes>
+    </test>
+
+    <test name="config_code=1002">
+        <parameter name="dataIndex" value="2" />
+        <classes>
+            <class name="com.CCJoy.InterfaceTest.Test.nouse.Get_config_codeTest" />
+        </classes>
+    </test>
+
+    <test name="config_code=1003">
+        <parameter name="dataIndex" value="3" />
+        <classes>
+            <class name="com.CCJoy.InterfaceTest.Test.nouse.Get_config_codeTest" />
+        </classes>
+    </test>
+
+    <test name="config_code=2001">
+        <parameter name="dataIndex" value="4" />
+        <classes>
+            <class name="com.CCJoy.InterfaceTest.Test.nouse.Get_config_codeTest" />
+        </classes>
+    </test>
+
+    <test name="config_code=1101">
+        <parameter name="dataIndex" value="5" />
+        <classes>
+            <class name="com.CCJoy.InterfaceTest.Test.nouse.Get_config_codeTest" />
+        </classes>
+    </test>
+
+    <test name="config_code=1102">
+        <parameter name="dataIndex" value="6" />
+        <classes>
+            <class name="com.CCJoy.InterfaceTest.Test.nouse.Get_config_codeTest" />
+        </classes>
+    </test>
+
+    <test name="config_code=1103">
+        <parameter name="dataIndex" value="7" />
+        <classes>
+            <class name="com.CCJoy.InterfaceTest.Test.nouse.Get_config_codeTest" />
+        </classes>
+    </test>
+
+    <test name="config_code=11123">
+        <parameter name="dataIndex" value="8" />
+        <classes>
+            <class name="com.CCJoy.InterfaceTest.Test.nouse.Get_config_codeTest" />
+        </classes>
+    </test>
+
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+    </listeners>
+</suite>
+

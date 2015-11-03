@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="groupGuid=6d3a10f8-f834-e511-8d70-d4ae526f9ae6"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.888">
+  <properties />
+  
+  
+            <testcase name="Get_user_configs_test" time="1.888" classname="com.CCJoy.InterfaceTest.Test.nouse.Get_user_configsTest" />
+      
+</testsuite>

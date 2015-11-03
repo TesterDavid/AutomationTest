@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="json-lib-1.1-jdk13">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/JARpackage/json-lib-1.1-jdk13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/JARpackage/sqljdbc4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

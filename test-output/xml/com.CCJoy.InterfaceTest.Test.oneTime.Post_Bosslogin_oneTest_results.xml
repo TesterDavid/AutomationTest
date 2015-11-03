@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Bosslogin_oneTest--FAILED"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.385">
+  <properties />
+  
+  
+            <testcase name="Bosslogin_oneTest" time="4.385" classname="com.CCJoy.InterfaceTest.Test.oneTime.Post_Bosslogin_oneTest" />
+      
+</testsuite>

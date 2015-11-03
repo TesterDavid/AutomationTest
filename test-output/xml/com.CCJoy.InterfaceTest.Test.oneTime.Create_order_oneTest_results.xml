@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Create_order_oneTest"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="0.000">
+  <properties />
+  
+            <testcase name="create_order_test" time="0.0" classname="com.CCJoy.InterfaceTest.Test.oneTime.Create_order_oneTest">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

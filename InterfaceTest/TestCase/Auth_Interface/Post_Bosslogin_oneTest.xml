@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Bosslogin_one" parallel="false">
+    <parameter name="url" value="http://121.43.193.41:8001/Auth/BossLogin" />
+    <test name="Bosslogin_oneTest--PASS">
+        <parameter name="tablename" value="[autotest].[dbo].[BossLogin]" />
+        <parameter name="dataIndex" value="1" />
+
+        <classes>
+            <class name="com.CCJoy.InterfaceTest.Test.oneTime.Post_Bosslogin_oneTest" />
+        </classes>
+    </test>
+
+    <test name="Bosslogin_oneTest--FAILED">
+        <parameter name="tablename" value="[autotest].[dbo].[BossLogin]" />
+        <parameter name="dataIndex" value="2" />
+
+        <classes>
+            <class name="com.CCJoy.InterfaceTest.Test.oneTime.Post_Bosslogin_oneTest" />
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+    </listeners>
+</suite>

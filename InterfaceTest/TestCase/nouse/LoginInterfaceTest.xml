@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="InterfaceTest" parallel="false">
+    <parameter name="url" value="http://192.168.181.5:805/Auth/Login" />
+    <parameter name="excelPath" value="D:\InterfaceTestCase\Test.xlsx" />
+    <parameter name="sheetName" value="Login_pass" />
+
+    <test name="LoginInterfaceTest--fail">
+        <parameter name="dataIndex" value="2" />
+        <classes>
+            <class name="com.CCJoy.InterfaceTest.Test.nouse.LoginInterfaceTest" />
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+    </listeners>
+</suite>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Put_ModifyPwd_moreTest" parallel="false">
+    <parameter name="url_login" value="http://121.43.193.41:8001/Auth/Login"/>
+    <parameter name="url_put" value="http://121.43.193.41:8001/Auth/ModifyPwd"/>
+
+    <test name="Put_ModifyPwd_moreTest">
+        <parameter name="tablename_login" value="[autotest].[dbo].[login_data]"/>
+        <parameter name="tablename_put" value="[autotest].[dbo].[Put_ModifyPwd]"/>
+        <parameter name="dataIndex_login" value="5"/>
+        <classes>
+            <class name="com.CCJoy.InterfaceTest.Test.moreTime.Put_ModifyPwd_moreTest"/>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+    </listeners>
+
+</suite>

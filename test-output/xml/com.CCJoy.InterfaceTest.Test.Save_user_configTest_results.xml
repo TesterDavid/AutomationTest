@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Save_user_config"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.110">
+  <properties />
+  
+  
+            <testcase name="Get_config_code_test" time="2.110" classname="com.CCJoy.InterfaceTest.Test.nouse.Save_user_configTest" />
+      
+</testsuite>

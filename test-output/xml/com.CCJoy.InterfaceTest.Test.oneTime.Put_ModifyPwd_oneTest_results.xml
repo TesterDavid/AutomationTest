@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Create_order_oneTest"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="13.934">
+  <properties />
+  
+  
+            <testcase name="doPut_ModifyPwd_oneTest" time="13.934" classname="com.CCJoy.InterfaceTest.Test.oneTime.Put_ModifyPwd_oneTest" />
+      
+</testsuite>

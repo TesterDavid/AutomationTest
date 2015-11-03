@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="config_groups"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.577">
+  <properties />
+  
+  
+            <testcase name="Get_config_groups_test" time="2.577" classname="com.CCJoy.InterfaceTest.Test.nouse.Get_config_groupsTest" />
+      
+</testsuite>

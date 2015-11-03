@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Bosslogin_moreTest"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.992">
+  <properties />
+  
+  
+            <testcase name="dopost_Bosslogin_moreTest" time="3.992" classname="com.CCJoy.InterfaceTest.Test.moreTime.Post_Bosslogin_moreTest" />
+      
+</testsuite>

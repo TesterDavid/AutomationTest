@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - config_code=2001</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>config_code=2001</h1>
+<p>
+  Test duration: 0.937s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.CCJoy.InterfaceTest.Test.nouse.Get_config_codeTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  Get_config_code_test
+      </td>
+  <td class="duration">
+    0.937s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"http://192.168.181.5:805/Auth/Login", "http://192.168.181.5:805/Config/GetUserConfig?config_code=", "D:\InterfaceTestCase\Get_config_code.xlsx", "Sheet1", 4</span><br />
+    
+            <div class="testOutput">
+                        [2015-09-24 19:05:35] 读取自定义的Excel文件：D:\InterfaceTestCase\Get_config_code.xlsx<br />
+                                [2015-09-24 19:05:35] <span style='background-color:#CFFFBA;'>获取Excel的数据为：[UserName=sanguo:guojia, app_version=1.1, device_id=123456789, Password=123456]</span><br />
+                                [2015-09-24 19:05:35] 开始执行登录POST请求<br />
+                                [2015-09-24 19:05:35] <span style='background-color:#FFE500;'>执行请求的URI为：http://192.168.181.5:805/Auth/Login</span><br />
+                                [2015-09-24 19:05:35] <span style='background-color:#CFFFBA;'>请求参数为：[UserName=sanguo:guojia, app_version=1.1, device_id=123456789, Password=123456]</span><br />
+                                [2015-09-24 19:05:35] <span style='background-color:#FFE500;'>从Excel中读取第4条用例的config_code为：2001</span><br />
+                                [2015-09-24 19:05:35] <span style='background-color:#FFE500;'>从Excel中读取第4条用例的预期结果为：12</span><br />
+                                [2015-09-24 19:05:35] 开始执行GET basic auth请求<br />
+                                [2015-09-24 19:05:35] usserid为:e1438931-e840-e511-8d70-d4ae526f9ae6|1|1<br />
+                                [2015-09-24 19:05:35] password为:9949aa93bca1451c98b824c4390c7dcc<br />
+                                [2015-09-24 19:05:35] <span style='background-color:#FFE500;'>执行请求的URI为:http://192.168.181.5:805/Config/GetUserConfig?config_code=2001</span><br />
+                                [2015-09-24 19:05:36] <span style='background-color:#FFE500;'>{"config_name":"配置项2001","input_time":"2015-09-06 15:31:39.247","config_item_id":"4fdd404f-6954-e511-9177-d4ae526f9ae6","config_code":"2001","description":"日期暂时不搞","user_value":"25","default_value":"2000","value_list":"2000-2020","inputer_name":"","inputer":"00000000-0000-0000-0000-000000000000","is_deleted":false,"group_id":"2da03a6f-f834-e511-8d70-d4ae526f9ae6","data_type":"4 "}</span><br />
+                                [2015-09-24 19:05:36] <span style='background-color:#FFE500;'>获取Data中的user_value数据为：25</span><br />
+                                [2015-09-24 19:05:36] <span style='background-color:#FFE500;'>{"config_name":"配置项2001","input_time":"2015-09-06 15:31:39.247","config_item_id":"4fdd404f-6954-e511-9177-d4ae526f9ae6","config_code":"2001","description":"日期暂时不搞","user_value":"25","default_value":"2000","value_list":"2000-2020","inputer_name":"","inputer":"00000000-0000-0000-0000-000000000000","is_deleted":false,"group_id":"2da03a6f-f834-e511-8d70-d4ae526f9ae6","data_type":"4 "}</span><br />
+                                [2015-09-24 19:05:36] <span style='background-color:#FFE500;'>获取Data中的default_value数据为：2000</span><br />
+                                [2015-09-24 19:05:36] 用户自定义配置项2001<br />
+                                [2015-09-24 19:05:36] <span style='background-color:#FFE500;'>{"config_name":"配置项2001","input_time":"2015-09-06 15:31:39.247","config_item_id":"4fdd404f-6954-e511-9177-d4ae526f9ae6","config_code":"2001","description":"日期暂时不搞","user_value":"25","default_value":"2000","value_list":"2000-2020","inputer_name":"","inputer":"00000000-0000-0000-0000-000000000000","is_deleted":false,"group_id":"2da03a6f-f834-e511-8d70-d4ae526f9ae6","data_type":"4 "}</span><br />
+                                [2015-09-24 19:05:36] <span style='background-color:#FFE500;'>获取Data中的user_value数据为：25</span><br />
+                                <P style="font-size:1.1em;color:#ED1C24"><b>┌───────────────────────┤ＣＨＥＣＫ　ＰＯＩＮＴ├───────────────────────┐<br>[目标]：检查是否一样<br>[实际]：25　[预期]：12<br>└──────────────────────────────────────────────────────────────────┘<br /></b></P>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: 检查点检查出错误</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.testng.Assert.fail(Assert.java:94)<br />
+              com.CCJoy.InterfaceTest.BaseFrame.CheckPointUtils.checkString(CheckPointUtils.java:68)<br />
+              com.CCJoy.InterfaceTest.Interface_Design.nouse.Get_config_code.doget_config_code(Get_config_code.java:59)<br />
+              com.CCJoy.InterfaceTest.Test.nouse.Get_config_codeTest.Get_config_code_test(Get_config_codeTest.java:19)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:497)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:659)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:771)<br />
+              org.testng.TestRunner.run(TestRunner.java:621)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:357)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:259)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1124)<br />
+              org.testng.TestNG.run(TestNG.java:1032)<br />
+              org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)<br />
+              org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:125)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:497)<br />
+              com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  
+</body>
+</html>

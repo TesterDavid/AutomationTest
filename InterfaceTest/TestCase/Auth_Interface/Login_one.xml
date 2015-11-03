@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login_one" parallel="false">
+    <parameter name="url" value="http://121.43.193.41:8001//Auth/Login" />
+
+
+    <test name="LoginInterfaceTest--fail">
+        <parameter name="tablename" value="[autotest].[dbo].[login_data]" />
+        <parameter name="dataIndex" value="2" />
+
+        <classes>
+            <class name="com.CCJoy.InterfaceTest.Test.oneTime.Login_oneTest" />
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+    </listeners>
+</suite>

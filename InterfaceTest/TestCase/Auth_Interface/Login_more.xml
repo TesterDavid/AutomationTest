@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login_more" parallel="false">
+    <parameter name="url" value="http://121.43.193.41:8001/Auth/Login" />
+
+
+    <test name="LoginInterfaceTest--fail">
+        <parameter name="tablename" value="[autotest].[dbo].[login_data]" />
+
+        <classes>
+            <class name="com.CCJoy.InterfaceTest.Test.moreTime.Login_moreTest" />
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+    </listeners>
+</suite>

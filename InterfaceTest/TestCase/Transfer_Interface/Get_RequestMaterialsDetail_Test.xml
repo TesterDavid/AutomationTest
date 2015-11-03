@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Get_RequestMaterialsDetail_Test" parallel="false">
+    <parameter name="url_login" value="http://121.43.193.41:8001/Auth/Login" />
+    <parameter name="url_get" value="http://121.43.193.41:8001/Transfer/GetRequestMaterialDetail?requestMaterialGuid=" />
+
+
+    <test name="Get_RequestMaterialsDetail_Test--pass">
+        <parameter name="tablename_login" value="[autotest].[dbo].[login_data]" />
+        <parameter name="tablename_get" value="[autotest].[dbo].[Get_RequestMaterialsDetail]" />
+        <parameter name="dataIndex_login" value="7" />
+        <parameter name="dataIndex_get" value="1" />
+
+        <classes>
+            <class name="com.CCJoy.InterfaceTest.Test.oneTime.Get_RequestMaterialsDetail_Test" />
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+    </listeners>
+</suite>

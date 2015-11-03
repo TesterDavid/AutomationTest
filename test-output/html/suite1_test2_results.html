@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Bosslogin_oneTest--FAILED</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Bosslogin_oneTest--FAILED</h1>
+<p>
+  Test duration: 4.385s
+</p>
+
+
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.CCJoy.InterfaceTest.Test.oneTime.Post_Bosslogin_oneTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  Bosslogin_oneTest
+      </td>
+  <td class="duration">
+    4.385s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"http://121.43.193.41:8001/Auth/BossLogin", "[autotest].[dbo].[BossLogin]", 2</span><br />
+    
+            <div class="testOutput">
+                        [2015-11-02 14:54:55] 获取表[autotest].[dbo].[BossLogin]【IsRun】为【1】<br />
+                                [2015-11-02 14:54:55] 开始执行POST请求<br />
+                                [2015-11-02 14:54:55] <span style='background-color:#FFE500;'>执行请求的URI为：http://121.43.193.41:8001/Auth/BossLogin</span><br />
+                                [2015-11-02 14:54:55] <span style='background-color:#CFFFBA;'>请求参数为：{"UserName":"shuguo:qiuqiu3","device_id":"123456","app_version":"1.1","chkMemory":true,"ImageCode":"sample string 6","Password":"123456"}</span><br />
+                                <span style="color:#FF0000"><b>[2015-11-02 14:54:55] [ERROR] 访问失败，返回的状态码为：400HTTP/1.1 400 Bad Request</b></span><br />
+                                [2015-11-02 14:54:59] 获取表[autotest].[dbo].[BossLogin]【IsCheck】为【1】<br />
+                                [2015-11-02 14:54:59] 获取表[autotest].[dbo].[BossLogin]【Message_expected】为【账号、密码错误或权限不够】<br />
+                                <P style="font-size:1.1em;color:#1C9340"><b>┌───────────────────────┤ＣＨＥＣＫ　ＰＯＩＮＴ├───────────────────────┐<br>[目标]：检查是否一样<br>[实际]：账号、密码错误或权限不够　[预期]：账号、密码错误或权限不够<br>└──────────────────────────────────────────────────────────────────┘</b></P>
+                                [2015-11-02 14:54:59] 登录失败<br />
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>

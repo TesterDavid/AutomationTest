@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Get_RequestMaterialsDetail_Test--pass"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="6.272">
+  <properties />
+  
+  
+            <testcase name="get_requestMaterialDetail" time="6.272" classname="com.CCJoy.InterfaceTest.Test.oneTime.Get_RequestMaterialsDetail_Test" />
+      
+</testsuite>
